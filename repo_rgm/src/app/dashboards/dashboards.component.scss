@@ -1,0 +1,439 @@
+.sidenav-container{
+    width: 110px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    transition: width 0.5s;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    overflow: hidden;   
+    z-index: 900;
+}
+.sidenav-container:hover{
+    width: 250px;
+}
+.sidenav-container:hover ul li p{
+    display: block;
+    color: #fff;
+}
+.sidenav-container:hover ul li p a{
+    color: #fff;
+}
+.sidenav-container:hover ul li p a b{
+    color: #ffffff;
+    text-decoration:line-through #ae3540 3px;
+}
+.sidenav-container:hover ul li img{
+    margin-right: 10px;
+    transition:2s;
+}
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ul li img{
+    width: 30px;
+    margin-right:10px;
+    
+}
+ul li p{
+    white-space: nowrap;
+    display: none;
+
+    font-weight: 1000;
+}
+ul li p i{
+    color: #ae3540;
+    font-size: 20px;
+ }
+ .containerA{
+    width: 100%;
+    height: 100vh;
+    //background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/assets/cover1.png);
+    background-position: center;
+    background-size: cover;
+    
+ }
+.row1{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col1{
+  padding-top: 8%;
+ 
+}
+
+
+.col3{
+    padding-top: 8%;
+    //padding-left: 10%;
+}
+.col1 h1{
+    color: #fff;
+    font-size: 100px;
+}
+.col1 p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #1b1b1b;
+    font-size: 12px;
+    padding: 12px 0 ;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.cardx-card1 {
+    background-image:url("/assets/book1.jpg");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0; 
+}
+.cardx-card2{
+    background-image:url("/assets/book2.jpg");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+
+.cardx-card3{
+    background-image:url("/assets/book3.PNG");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+
+.cardx-card4{
+    background-image:url("/assets/book4.jpg");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+
+.cardx-card5{
+    background-image:url("/assets/book5.jpg");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+
+.cardx-card6{
+    background-image:url("/assets/book6.PNG");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0; 
+}
+.cardx-card7{
+    background-image:url("/assets/book6.PNG");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+.cardx-card8{
+    background-image:url("/assets/book7.jpg");
+    width: 280px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.5; 
+}
+
+.cardx-card2:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+.cardx-card3:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+.cardx-card4:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+.cardx-card5:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.cardx-card7:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+.cardx-card8:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.cardx p{
+    text-shadow: 0 0 5px #999;
+    font-size:8px;
+}
+.page2{
+    position: absolute;
+    right: 0%;
+    //display: flex;
+    //align-items: center;
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/assets/bg1.png);
+    background-size:cover;
+    background-position:center;
+    //gap: 30px;
+    //overflow: hidden;
+    z-index: 1;
+}
+.gallary{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.gallary h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallary .gallary_image_box{
+    width: 85%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallary .gallary_image_box .gallary_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.gallary .gallary_image_box .gallary_image img{
+    width: 100%;
+    transition: .3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover img{
+    opacity: 0.4;
+}
+
+.gallary .gallary_image_box .gallary_image h3{
+    position: absolute;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: #fff;
+    font-family: polo;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover h3{
+    opacity: 1;
+}
+
+.gallary .gallary_image_box .gallary_image p{
+    position: absolute;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    line-height: 22px;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover p{
+    opacity: 1;
+}
+
+.gallary .gallary_image_box .gallary_image .gallary_btn{
+    position: absolute;
+    margin-top: 180px;
+    color: #fff;
+    background: #ae3540;
+    padding: 7px 25px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(45px);
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover .gallary_btn{
+    opacity: 1;
+    transform: translateY(0);
+}
+.button1{
+    // /margin-left: 0%;
+    border-radius: 2em;
+    border: 1px solid #fff;
+    background: #ae3540;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1em 5em;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button1:hover {
+    color: #ae3540;
+    border-color: #ae3540;
+  }
+  .inst3{
+    display: flex;
+    position: absolute;
+    top:33%;
+    left: 41%;
+    z-index: 10;
+    //width: 25%;
+    //height: 5%;
+}
+.inst4{
+    display: flex;
+    position: absolute;
+    //top:33%;
+    left: 39%;
+    z-index: 10;
+    //width: 25%;
+    //height: 5%;
+}
+.inst5{
+    display: flex;
+    position: absolute;
+    top:26%;
+    left: 8.5%;
+    z-index: 10;
+    //width: 25%;
+    //height: 5%;
+}
+.inst6{
+    display: flex;
+    position: absolute;
+    top:26%;
+    left:37%;
+    z-index: 10;
+    //width: 25%;
+    //height: 5%;
+}.inst7{
+    display: flex;
+    position: absolute;
+    top:26%;
+    left: 65.5%;
+    z-index: 10;
+    //width: 25%;
+    //height: 5%;
+}
+.col1 .cardx-card1 h3{
+    position: absolute;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: #ae3540;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.col1 .cardx-card1:hover h3{
+    opacity: 1;
+}
