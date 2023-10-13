@@ -1,0 +1,38 @@
+  <section class="home">
+      <div class="home-text">
+          <span><b>VIP Account</b></span>
+          <span>Streamer</span>
+          <span><b>Rank #1</b></span>
+          <h1>La_Creatura_El_Diablo</h1>
+          <p>My morals have been updated from the Jurassic period to the Permian. I often speaks in non-sensical, sometimes disturbing references and meta jokes. </p>
+  <div class="main-btnn">
+      <a href="'/'" class="btn">Find Party</a>
+      <a class="btn2"><img src="assets/bell.png"></a>
+      <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+      </label>
+  </div>
+  </div>  
+  <div class="box">
+      <div class="content">
+  <div class="home-img">
+      <img src="assets/neco.gif">
+  </div>
+  </div>
+  <img class ="rank" src="assets/rank.png">
+  </div>
+  </section>
+  <div class="social">
+      <img src="assets/down.png">
+  </div>
+  <section class="home2">
+      <app-root></app-root>
+      <div class="social2">
+          <img src="assets/up.png">
+      </div>
+      <div class="hidden">
+          <img src="assets/arisu.gif">
+          <h1>Waiting for Instructions<br></h1>
+      </div>
+  </section>
